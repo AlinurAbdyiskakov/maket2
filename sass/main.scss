@@ -1,5 +1,54 @@
-$color:blue;
-body {
-    background-color: $color;
-    color: #fff;
+* {
+    margin: 0 auto;
+}
+
+header {
+    background-color: #fff;
+    .header_1 {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        .conteiner {
+            color: blue;
+        }
+        #yl {
+            color: rgb(231, 129, 12);
+        }
+    }
+    nav {
+        background-color: rgb(91, 91, 206);
+        height: 30px;
+        padding: 20px;
+        margin: 5% auto;
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: row;
+        }
+        li {
+            a {
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+#conteiner_2 {
+    background-image: url(./image/header_img.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    .blok_1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .form {
+        display: flex;
+        flex-direction: column;
+    }
 }
